@@ -5,11 +5,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Tangerine:wght@700&display=swap');
 
-/* font-family: 'Roboto', sans-serif;
-font-family: 'Tangerine', cursive; */
-
-/* Farbe: #e7bc0e  / #efefef / #6bc1a3 / #cb91b6 / #7eb8e1 / #000 / #fff */
-
 /* ===========================================
         GENERAL STYLES
 ============================================== */
@@ -26,8 +21,12 @@ html {
 }
 
 span {
-    color: #fff;
+    color: #efefef;
     background-color: rgba(0, 0, 0, 0.3);
+}
+
+a {
+    display: inline-block;
 }
 
 /* ===========================================
@@ -45,6 +44,8 @@ main {
     background-size: cover;
 }
 
+/* NAV STYLES */
+
 main nav {
     position: fixed;
     top: 0;
@@ -59,14 +60,13 @@ main nav img {
 }
 
 main nav a {
-    display: inline-block;
     font-family: 'Roboto', sans-serif;
-    font-weight: 700;
+    color: #efefef;
     font-size: 1.8rem;
-    text-decoration: none;
-    color: #fff;
-    padding: 0 7vw 0 1vw;
+    font-weight: 700;
     letter-spacing: 2px;
+    text-decoration: none;
+    padding: 0 7vw 0 1vw;
 }
 
 main nav a:hover {
@@ -80,10 +80,12 @@ main nav div {
     margin: 1vh 7vw 0 3.1vw;
 }
 
+/* HERO SECTION STYLES */
+
 main h1 {
     font-family: 'Santio Bold';
+    color: #efefef;
     font-size: 7rem;
-    color: #fff;
     padding-left: 10vw;
 }
 
@@ -94,12 +96,15 @@ main h1:nth-of-type(1) {
 main>a {
     font-family: 'Tangerine', cursive;
     color: #e7bc0e;
-    padding: 10vh 0 10vh 10vw;
-    text-decoration: none;
     font-size: 3rem;
     font-style: italic;
-    display: inline-block;
     letter-spacing: -3px;
+    text-decoration: none;
+    margin: 10vh 0 10vh 10vw;
+}
+
+main>a:hover {
+    color: #fadd67;
 }
 
 main>a:after {
@@ -109,18 +114,23 @@ main>a:after {
     padding-left: 1vw;
 }
 
-main p:nth-of-type(1) {
+/* MAIN SECTIONS STYLES */
+
+main p {
     font-family: 'Santio Bold';
-    color: #6bc1a3;
     font-size: 4rem;
-    padding: 20vh 10vw 20vh 15vw;
-    line-height: 1.5;
     letter-spacing: -1px;
+    line-height: 1.5;
+}
+
+main p:nth-of-type(1) {
+    color: #6bc1a3;
+    padding: 27.5vh 10vw 20vh 15vw;
 }
 
 main section {
-    padding: 10vh 0 10vh 10vw;
     font-family: 'Santio Bold';
+    padding: 10vh 0 10vh 10vw;
 }
 
 main section img {
@@ -150,12 +160,8 @@ main section:nth-of-type(3) {
 }
 
 main p:nth-of-type(2) {
-    font-family: 'Santio Bold';
     color: #7eb8e1;
-    font-size: 4rem;
-    padding: 10vh 10vw 25vh 35vw;
-    line-height: 1.5;
-    letter-spacing: -1px;
+    padding: 20vh 10vw 25vh 35vw;
 }
 
 /* ===========================================
@@ -181,30 +187,29 @@ footer {
 
 footer h4 {
     font-family: 'Santio Bold';
-    color: #fff;
+    color: #efefef;
     font-size: 9rem;
     padding: 75vh 15vw 10vh 10vw;
 }
 
 footer>a {
-    display: inline-block;
-    color: #fff;
-    text-decoration: none;
-    border: 2px solid #fff;
-    margin: 0 0 50vh 10vw;
-    padding: 2vh 2vw;
-    font-size: 2.5rem;
     font-family: 'Roboto', sans-serif;
+    color: #efefef;
+    font-size: 2.5rem;
+    text-decoration: none;
+    padding: 2vh 2vw;
+    border: 2px solid #efefef;
+    margin: 0 0 50vh 10vw;
 }
 
 footer>a:hover {
-    background-color: #fff;
+    background-color: #efefef;
     color: #000;
 }
 
 footer p {
     font-family: 'Roboto', sans-serif;
-    color: #fff;
+    color: #efefef;
     font-size: 1.4rem;
     padding-bottom: 3vh;
     text-align: center;
