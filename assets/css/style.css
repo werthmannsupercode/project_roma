@@ -1,0 +1,219 @@
+@font-face {
+    font-family: 'Santio Bold';
+    src: url('../fonts/Santio\ Bold.ttf')
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Tangerine:wght@700&display=swap');
+
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Tangerine', cursive; */
+
+/* Farbe: #e7bc0e  / #efefef / #6bc1a3 / #cb91b6 / #7eb8e1 / #000 / #fff */
+
+/* ===========================================
+        GENERAL STYLES
+============================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+span {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* ===========================================
+        MAIN STYLES
+============================================== */
+
+main {
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url('../img/cleo-topper.jpg');
+    background-blend-mode: multiply;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    text-align: right;
+}
+
+main nav img {
+    display: inline-block;
+    height: 4vh;
+    margin-top: 2vh;
+}
+
+main nav a {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: #fff;
+    padding: 0 7vw 0 1vw;
+    letter-spacing: 2px;
+}
+
+main nav a:hover {
+    color: #e7bc0e;
+}
+
+main nav div {
+    height: 2px;
+    background-color: #e7bc0e;
+    width: auto;
+    margin: 1vh 7vw 0 3.1vw;
+}
+
+main h1 {
+    font-family: 'Santio Bold';
+    font-size: 6rem;
+    color: #fff;
+    padding-left: 10vw;
+}
+
+main h1:nth-of-type(1) {
+    padding-top: 22.5vh;
+}
+
+main>a {
+    font-family: 'Tangerine', cursive;
+    color: #e7bc0e;
+    padding: 10vh 0 10vh 10vw;
+    text-decoration: none;
+    font-size: 3rem;
+    font-style: italic;
+    display: inline-block;
+}
+
+main>a:after {
+    content: '\22C1';
+    font-style: italic;
+    font-size: 2.5rem;
+    padding-left: 2vw;
+}
+
+main p:nth-of-type(1) {
+    font-family: 'Santio Bold';
+    color: #6bc1a3;
+    font-size: 4rem;
+    padding: 15vh 10vw 20vh 15vw;
+    line-height: 1.5;
+    letter-spacing: -1px;
+}
+
+main section {
+    padding: 10vh 0 10vh 10vw;
+    font-family: 'Santio Bold';
+}
+
+main section img {
+    height: 25vh;
+}
+
+main section h2 {
+    font-size: 17.5rem;
+    padding-top: 5vh;
+}
+
+main section h3 {
+    font-size: 5rem;
+    padding-top: 5vh;
+}
+
+main section:nth-of-type(1) {
+    color: #e7bc0e;
+}
+
+main section:nth-of-type(2) {
+    color: #cb91b6;
+}
+
+main section:nth-of-type(3) {
+    color: #6bc1a3;
+}
+
+main p:nth-of-type(2) {
+    font-family: 'Santio Bold';
+    color: #7eb8e1;
+    font-size: 4rem;
+    padding: 10vh 10vw 20vh 35vw;
+    line-height: 1.5;
+    letter-spacing: -1px;
+}
+
+/* ===========================================
+        ARTICLE STYLES
+============================================== */
+
+article {
+    background-image: url('../img/kid.png'), url('../img/see.png');
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ===========================================
+        FOOTER STYLES
+============================================== */
+
+footer {
+    background-color: #000;
+}
+
+footer h4 {
+    font-family: 'Santio Bold';
+    color: #fff;
+    font-size: 9rem;
+    padding: 75vh 15vw 10vh 10vw;
+}
+
+footer>a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+    margin: 0 0 50vh 10vw;
+    padding: 2vh 2vw;
+    font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer>a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+footer p {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 1.4rem;
+    padding-bottom: 3vh;
+    text-align: center;
+}
+
+footer p a {
+    color: #6bc1a3;
+    text-decoration: none;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
