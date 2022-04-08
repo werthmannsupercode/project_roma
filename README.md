@@ -2,7 +2,7 @@
 
 🌸 Willkommen im Projekt Roma 🌸
 
-Eine Seite inspiriert vom gleichnamigen Film 🎬.
+...eine Seite inspiriert vom gleichnamigen Film 🎬
 
 Dies ist eine Übung im Bootcamp "Fullstack Development" zum Thema "HTML & CSS Vertiefung".<br>
 Die Seite ist optimiert für eine Bildschirmgröße von 1440x900Pixel.
