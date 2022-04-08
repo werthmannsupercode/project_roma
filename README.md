@@ -4,7 +4,7 @@
 
 Eine Seite inspiriert vom gleichnamigen Film 🎬.
 
-Dies ist eine Übung im Bootcamp Fullstack Webdevelopment zum Thema "HTML & CSS Vertiefung".<br>
+Dies ist eine Übung im Bootcamp "Fullstack Development" zum Thema "HTML & CSS Vertiefung".<br>
 Die Seite ist optimiert für eine Bildschirmgröße von 1440x900Pixel.
 
 Hier geht's lang, wenn du dich für das Ergebnis interessierst:
