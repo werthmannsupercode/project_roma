@@ -9,7 +9,7 @@ Die Seite ist optimiert für eine Bildschirmgröße von 1440x900Pixel.
 
 Hier geht's lang, wenn du dich für das Ergebnis interessierst:
 
-https://werthmannsupercode.github.io/css_project_roma/
+http://werthmannsupercode.github.io/css_project_roma/
  
 
 Verwendete Technologien:<br>
